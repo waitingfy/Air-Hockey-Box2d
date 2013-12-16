@@ -1,0 +1,30 @@
+﻿Build started 2013-10-7 13:30:37.
+     1>Project "E:\vs_projects\Air Hockey Box2d\Air Hockey\proj.win32\Air Hockey.win32.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release.win32\Air Hockey.win32.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /l"0x0409" /IRelease.win32\ /nologo /fo"Release.win32\Air Hockey.res" "Air Hockey.rc" 
+       Link:
+         E:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\vs_projects\Air Hockey Box2d\Release.win32\Air Hockey.win32.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\vs_projects\Air Hockey Box2d\Release.win32\\" libcocos2d.lib opengl32.lib glew32.lib libCocosDenshion.lib libBox2d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release.win32\Air Hockey.win32.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"E:\vs_projects\Air Hockey Box2d\Release.win32\Air Hockey.win32.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\vs_projects\Air Hockey Box2d\Release.win32\Air Hockey.win32.lib" /MACHINE:X86 "Release.win32\Air Hockey.res"
+         Release.win32\AppDelegate.obj
+         Release.win32\b2Sprite.obj
+         Release.win32\Ball.obj
+         Release.win32\CollisionListener.obj
+         Release.win32\GameLayer.obj
+         Release.win32\GLES_Render.obj
+         Release.win32\Goal.obj
+         Release.win32\Player.obj
+         Release.win32\main.obj
+         Air Hockey.win32.vcxproj -> E:\vs_projects\Air Hockey Box2d\Release.win32\Air Hockey.win32.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\vs_projects\Air Hockey Box2d\Release.win32\Air Hockey.win32.exe;#1" /manifest "Release.win32\Air Hockey.win32.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release.win32\Air Hockey.win32.unsuccessfulbuild".
+         Touching "Release.win32\Air Hockey.win32.lastbuildstate".
+     1>Done Building Project "E:\vs_projects\Air Hockey Box2d\Air Hockey\proj.win32\Air Hockey.win32.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.82
